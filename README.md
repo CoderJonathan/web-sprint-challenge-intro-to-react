@@ -32,11 +32,19 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+React creates composable user interfaces with reusable components that react to data changes. It solves problems are poor handling and slow data response of JS. It also makes it easier to design pages by using JSX.
+
 1. Describe component state.
+
+State is what determines how that component is rendered and behaves. State allows you to create components that dynamic and interactive.
 
 1. Describe props.
 
+Data is passed from one component to its children through props.
+
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+
+Side effects is anything that effects something outside the scope of the current function.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
@@ -52,8 +60,8 @@ You are expected to be able to answer questions in these areas. Your responses c
 - [x] In a separate terminal, run `npm run test:watch` to run tests.
 - [x] Once you have installed the _node_modules_, run `npm start` to get your server up and running.
 - [x] With the server up and running, open Chrome and head over to `localhost:3000` and view your beautiful app. Maybe it's not _that_ pretty... _yet_, your goal is to ensure this project becomes a thing of beauty.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
-- [ ] Push commits: `git push origin <firstName-lastName>`
+- [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
+- [x] Push commits: `git push origin <firstName-lastName>`
 
 ### Task 2: Project Requirements
 
@@ -72,20 +80,20 @@ Your finished project must include all of the following requirements:
 
 ### Required best practices
 
-- [ ] Consistent naming. Examples: variables, functions, Components, and file/folder organization.
-- [ ] Consistent spacing. Examples: line breaks, around arguments and before/after functions.
-- [ ] Consistent quotation usage.
-- [ ] Spell-check.
-- [ ] Schedule time to review, refine and reassess your work.
+- [x] Consistent naming. Examples: variables, functions, Components, and file/folder organization.
+- [x] Consistent spacing. Examples: line breaks, around arguments and before/after functions.
+- [x] Consistent quotation usage.
+- [x] Spell-check.
+- [x] Schedule time to review, refine and reassess your work.
 
 It is better to submit a challenge that meets [MVP](https://en.wikipedia.org/wiki/Minimum_viable_product) than one that attempts too much and fails.
 
 ### Tips and Gotchas
 
-- [ ] Test your API and inspect the data in Chrome, Postman or HTTPie _before_ writing the code for the request(s). See screenshots at the root of the project.
-- [ ] Try not to hammer your API while developing. Infinite loops in your code might trigger hundreds of requests!
-- [ ] Running `npm` commands in the wrong folder will not work. **Be aware of what folder you're in** when working in the command line.
-- [ ] The `start` process can sometimes choke after adding new dependencies and may need to be restarted.
+- [x] Test your API and inspect the data in Chrome, Postman or HTTPie _before_ writing the code for the request(s). See screenshots at the root of the project.
+- [x] Try not to hammer your API while developing. Infinite loops in your code might trigger hundreds of requests!
+- [x] Running `npm` commands in the wrong folder will not work. **Be aware of what folder you're in** when working in the command line.
+- [x] The `start` process can sometimes choke after adding new dependencies and may need to be restarted.
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. You will be scored on your adherence to proper code style and good organization. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
